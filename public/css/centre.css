@@ -1,0 +1,178 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/*Just the background stuff*/
+span.s1 {
+  position: absolute;
+  top: 0;
+  font-size: 15rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #3C4447;
+}
+
+span.s2 {
+  font-weight: 800;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 15rem;
+  text-transform: uppercase;
+  color: #3C4447;
+}
+
+/*My hum... body.. yeah..*/
+body {
+  background-color: #1f1d1f;
+  font-family: "Roboto", sans-serif;
+}
+
+/* The card */
+.card {
+  position: relative;
+  height: 450px;
+  width: 900px;
+  margin: 200px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* Image on the left side */
+.thumbnail {
+  float: left;
+  position: relative;
+  left: 30px;
+  top: -30px;
+  height: 320px;
+  width: 530px;
+  -webkit-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 60px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+
+/*object-fit: cover;*/
+/*object-position: center;*/
+img.left {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: auto;
+  width: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* Right side of the card */
+.right {
+  margin-left: 590px;
+  margin-right: 20px;
+}
+
+h1 {
+  padding-top: 15px;
+  font-size: 1.3rem;
+  color: #4B4B4B;
+}
+
+.author {
+  background-color: #b0b300;
+  height: 30px;
+  width: 210px;
+  border-radius: 20px;
+}
+
+.author > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+h2 {
+  padding: 8px;
+  margin: 2px 0;
+  text-align: left;
+  font-size: 0.8rem;
+  
+}
+.separator {
+  margin-top: 10px;
+  border: 1px solid #C3C3C3;
+}
+
+p {
+  text-align: justify;
+  padding-top: 10px;
+  font-size: 0.95rem;
+  line-height: 150%;
+  color: #4B4B4B;
+}
+
+/* DATE of release*/
+h5 {
+  position: absolute;
+  left: 30px;
+  bottom: -120px;
+  font-size: 6rem;
+  color: #400147;
+}
+
+h6 {
+  position: absolute;
+  left: 30px;
+  bottom: -55px;
+  font-size: 2rem;
+  color: #400147;
+}
+
+/* Those futur buttons */
+ul {
+  margin-left: 250px;
+}
+
+
+
+/* Floating action button */
+.sports{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+    margin-right: 20px;
+    float: right;
+}
+.sport{
+  background-color: #9603a6;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 20px;
+    margin: 3px;
+}
+.sport > img {
+  padding-top: 5px;
+  margin-left: 10px;
+  float: left;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.sportlist{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin:-17px 169px 2px 2px; 
+  
+}
+.goback-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  padding: 10px 15px;
+  background-color: #f1f1f1;
+  color: #333;
+  text-decoration: none;
+  border-radius: 10px;
+}
